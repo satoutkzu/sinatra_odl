@@ -132,3 +132,9 @@ get '/table2' do
   erb :table, :locals => {results: output}
  
 end
+
+
+
+get '/picture' do
+  erb :picture
+end
