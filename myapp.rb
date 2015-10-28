@@ -129,7 +129,7 @@ get '/table2' do
     output  << "<tr><td>#{m}</td><td>#{i}</td><td>#{p}</td></tr>"
   end
   
-  erb :table, :locals => {results: output}
+  erb :table2, :locals => {results: output}
  
 end
 

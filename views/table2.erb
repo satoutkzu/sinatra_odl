@@ -1,10 +1,34 @@
-<table>
-  <th>The Weather in Buffalo, NY, USA</th>
-  <tr>
-    <td><%= results %></td>
-  </tr>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>openflow table : openflow:4</title>
+    <meta charset=utf-8/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
 
-<hr noshade>
+  <body>
+    <div class="container-fluid">
 
-Powered by the <a href = 'http://openweathermap.org/' target = _new>Open Weather Map API</a>
+    openflow table: openflow:4
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>matching</th>
+          <th>instructions</th>
+          <th>priority</th>
+        </tr>
+      </thead>
+      <tr>
+      <td><%= results %></td>
+      </tr>
+    </table>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  
+  </body>
+</html>
